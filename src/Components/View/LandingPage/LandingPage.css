@@ -1,0 +1,185 @@
+.Container_landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url(../../../assets/Images/background.jpg); */
+  background-image: url(./wagle.jpg);
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.change_nickname {
+  display: inline-block;
+  margin-right: 14vw;
+  margin-bottom: 5vw;
+}
+.change_nickname2 {
+  display: inline-block;
+}
+.change_nickname3 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.change_nickname3 input {
+  margin-left: 5vw;
+  width: 37vw;
+}
+.change_nickname_button {
+  float: right;
+}
+.event_url {
+  /* display: flex; */
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 8vh;
+  left: 16px;
+  /* justify-content: center; */
+  width: auto;
+  /* height: 60px; */
+  /* background-color: #bad6d7; */
+  background-repeat: no-repeat;
+}
+.nickname_change_btn {
+  font-size: 16px;
+  font-family: "Jalnan";
+  color: white;
+  background-color: #b4cbff;
+  box-shadow: 3px 4px 3px 1px #8f9db9;
+  border: 0;
+  border-radius: 60px;
+  padding: 15px;
+}
+
+#alert_sivbal {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 200px;
+  height: auto;
+}
+.Set_landing {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  width: 100vw;
+}
+
+.Title_use {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 240px;
+  height: 40px;
+}
+
+.Title_usee {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.Title_landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.Title1_landing {
+  color: #f05052;
+  font-size: 15;
+  font-family: "Jalnan";
+}
+.event_url span {
+  display: block;
+  color: #825fff;
+  font-size: 18px;
+  font-family: "Jalnan";
+  /* margin-top: 15px; */
+  /* margin-left: 20px; */
+}
+.Title2_landing {
+  color: #f05052;
+  font-size: 40px;
+  font-family: "Jalnan";
+}
+
+.Title3_landing {
+  color: white;
+  font-size: 25px;
+  font-family: "Jalnan";
+}
+
+.Title4_landing {
+  color: white;
+  font-size: 15px;
+  font-family: "Jalnan";
+  margin-top: 10px;
+}
+.Title4_landing2 {
+  color: #f05052;
+  font-size: 15px;
+  font-family: "Jalnan";
+  margin-top: 10px;
+}
+
+.Start_landing {
+  font-size: 25px;
+  font-family: "Jalnan";
+  color: white;
+  background-color: green;
+}
+
+.Toggle_landing {
+  font-size: 25px;
+  font-family: "Jalnan";
+  color: white;
+  background-color: #c7d9ff;
+  border: 0px;
+}
+
+.ToggleTitle_landing {
+  display: flex;
+  margin-top: 150px;
+  opacity: 0.8;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  width: 150px;
+}
+
+.Toggle2_landing {
+  width: 150px;
+  background-color: rgb(92, 91, 91);
+  border-bottom: 1px solid white;
+  font-size: 25px;
+  padding: 5px;
+  font-family: "Jalnan";
+  color: white;
+  border: 0px;
+}
+
+.Btn_landing {
+  background-color: #c7d9ff;
+  border: 0px;
+}
+
+.name_change_input {
+  background-color: rgb(215, 215, 215);
+  border: 0px;
+  border-radius: 5px;
+  height: 22px;
+  margin-bottom: 3px;
+  width: 20px;
+}
+.notification_div {
+  margin-top: 10px;
+  color: white;
+  font-family: "Jalnan";
+}

@@ -1,0 +1,47 @@
+.Font_start {
+  font-size: 18px;
+  font-family: "Jalnan";
+  color: white;
+  background-color: #b4cbff;
+  border-radius: 30px;
+  padding: 15px;
+  border: 0px;
+  box-shadow: 3px 4px 3px 1px #8f9db9;
+}
+
+.Font2_start {
+  font-size: 18px;
+  font-family: "Jalnan";
+  color: white;
+  background-color: #f05052;
+  border-radius: 30px;
+  padding: 15px;
+  border: 0px;
+  box-shadow: 3px 4px 3px 1px #8f9db9;
+}
+.start_progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Progress_start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.MuiTypography-root.MuiTypography-h6 {
+  text-align: center;
+  font-family: "Jalnan";
+  color: #1d1b1b;
+}
+.MuiTypography-root.MuiDialogContentText-root.MuiTypography-body1.MuiTypography-colorTextSecondary {
+  font-family: "Jalnan";
+  color: rgb(73, 73, 73);
+  font-size: 14px;
+  width: auto;
+}
+#photos {
+  margin-right: 5vw;
+}
