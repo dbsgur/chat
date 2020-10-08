@@ -4,6 +4,8 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
+import Mans from "./man.png";
+import Womans from "./woman.png";
 export default class Ting extends Component {
   constructor(props) {
     super(props);
@@ -30,7 +32,11 @@ export default class Ting extends Component {
       <div>
         <div className="Gwating_tablebox" onClick={this.viewDetail}>
           <div className="Gwating_row">
-            <div className="Gwating_img">Img</div>
+            {this.props.gender === "M" ? (
+              <img id="photos" src={Mans} className="Gwating_img" />
+            ) : (
+              <img id="photos" src={Womans} className="Gwating_img" />
+            )}
             <div className="Gwating_intro">
               <span>
                 {this.props.num} : {this.props.num}

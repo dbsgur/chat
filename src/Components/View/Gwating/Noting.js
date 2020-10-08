@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Gwating.css";
+import Mans from "./man.png";
+import Womans from "./woman.png";
 export default class NoTing extends Component {
   //동성은 버튼 못누르게 !
   //이건 이성
@@ -8,7 +10,12 @@ export default class NoTing extends Component {
       <div>
         <div className="Gwating_tablebox">
           <div className="Gwating_row">
-            <div className="Gwating_img">Img</div>
+            {this.props.gender === "M" ? (
+              <img id="photos" src={Mans} className="Gwating_img" />
+            ) : (
+              <img id="photos" src={Womans} className="Gwating_img" />
+            )}
+
             <div className="Gwating_intro">
               <span>
                 {this.props.num} : {this.props.num}
