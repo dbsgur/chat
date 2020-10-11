@@ -12,7 +12,7 @@ import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Photos from "./photos.png";
 import Admin from "./Admin";
-const socket = io("http://localhost:3001");
+const socket = io();
 
 export default class Allmessage extends React.Component {
   constructor(props) {

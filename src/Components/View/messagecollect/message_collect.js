@@ -7,7 +7,7 @@ import MessageroomWhite from "./room_white";
 import Footer from "../../Utils/Footer/Footer";
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 
-const socket = io("http://localhost:3001");
+const socket = io();
 
 export default class Message_collect extends React.Component {
   constructor(props) {
